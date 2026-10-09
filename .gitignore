@@ -1,0 +1,38 @@
+# --- Severitas Runtime Sinks ---
+.severitas-state/
+*.db
+*.db-wal
+*.db-shm
+logs/
+audit/
+reports/
+exports/
+campaigns/
+lab/
+tmp/
+documents/
+
+# --- Extension Artifacts ---
+*-interactions.jsonl
+*-poster.html
+*.svg
+*.png
+severitas-oauth-demo.html
+severitas-removable-media-checklist.txt
+severitas-blackbox-*.json
+severitas-external-*.json
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# --- Environments ---
+.venv/
+venv/
+ENV/
+env/
